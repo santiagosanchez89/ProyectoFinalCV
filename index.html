@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="Estilos/estilos.css" />
+    <link rel="icon" type="image/x-icon" href="Imagenes/icono-persona.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        
+</head>
+<body>
+    <header>
+        <h1>Ezequiel Ignacio Sanchez</h1>
+    </header>
+  
+    <p>Ir a:
+    <a href="#datos personales">Datos Personales</a>
+    <a href="#estudios cursados">Estudios Cursados</a>
+    <a href="#conocimientos y aptitudes">Conocimientos y Aptitudes</a>
+    <a href="#experiencia laboral">Experiencia Laboral</a>
+    </p>
+    
+    <img src="Imagenes\84.jpg" alt="Image Perfil" id="imagen-perf" />
+
+    <h2>Administrativo Contable</h2>
+
+    <p id="barra"></p>
+
+    <a name="datos personales" />
+        <h3 id="Titulos">Datos Pesonales</h3>
+    
+    <p id="barra"></p>
+    <ul class="miclass">
+        <li>D.N.I: 33.159.753</li>
+        <li>Fecha de Nacimiento: 20/03/1988</li>
+        <li>Domicilio: Juan B. Justo 1534</li>
+        <li>Localidad: San Miguel de Tucumán, Argentina</li>
+        <li>Codigo Postal: 4000</li>
+        <li>Estado Civil: Soltero</li>
+        <li>Telefono: (0381) 154183079</li>
+        <li>Email: ignaciosanchez@gmail.com</li>
+    </ul>
+
+    <p id="barra"></p>
+
+    <a name="estudios cursados" />
+        <h4 id="Titulos"> Estudios Cursados</h4>
+
+    <p id="barra"></p>
+
+    <ul class="miclass">
+        <li>Estudios Primarios: Completos
+            <ul>
+                <li>Escuela: San Carlos</li>
+                <li>Dirección: Bernardino Rivadavia 497, T4000 San Miguel de Tucumán, Tucumán </li>
+            </ul>
+        </li>
+        <li>Estudios Secundarios: Completos
+            <ul>
+                <li>Escuela: San Carlos</li>
+                <li>Dirección: Bernardino Rivadavia 497, T4000 San Miguel de Tucumán, Tucumán </li>
+                <li>Titulo obtenido: Economia y Gestion de las Organizaciones</li>
+            </ul>
+        </li>
+        <li>Estudios Universitario: En Curso
+            <ul>
+                <li>Universidad: Universidad Nacional De Tucuman</li>
+                <li>Dirección: Av. Independencia 1800, T4002 San Miguel de Tucumán, Tucumán </li>
+                <li>Titulo a obtener: Contador Publico Nacional</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <p id="barra"></p>
+    
+    <a name="conocimientos y aptitudes" />
+        <h5 id="Titulos">Conocimientos y Aptitudes</h5>
+    
+    <p id="barra"></p>
+
+    <ul class="miclass">
+        <li>Idiomas: Ingles (Intermedio)</li>
+        <li>Manejo de PC/Internet: Paquete office y web (Avanzado)</li>
+        <li>Programas: Tango Gestion, OSgestion</li>
+        <li>Buen desempeño en cualquier area laboral</li>
+        <li>Facilidad de inserción en nuevo grupos de trabajo</li>
+    </ul>
+
+    <p id="barra"></p>
+
+    <a name="experiencia laboral" />
+        <h5 id="Titulos">Experiencia Laboral</h5>
+
+    <p id="barra"></p>
+
+    <ul class="miclass">
+        <li>Madernoa: Administrativo contable
+            <ul>
+                <li>Direccion: Av. Juan B. Justo 1519, T4000 San Miguel de Tucuán, Tucumán</li>
+                <li>Referencia: Eduardo Miguel Luque, Jefe - Celular: (0381) 154785623</li>
+            </ul>
+        </li>
+        
+    </ul>
+</body>
+
+
+
+
+<footer>
+
+<p id="barra"></p>
+
+<button id="Comunicate" onclick="MostrarTelefono()">Celular</button>
+<p id="telefono"></p>
+
+<script>
+     function MostrarTelefono(){
+     document.getElementById("telefono").innerHTML = "(0381) 154183079";
+     }
+</script>
+ 
+<button><a class="miclass2" href="mailto:ignaciosanchez@gmail.com">Email</a></button>
+
+</footer>
+
+</html>
